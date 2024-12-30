@@ -1,8 +1,117 @@
-.footer-contacto {
-    width: 100%;
-    back
+* {
+    margin: 0;
+    padding: 0;
 }
+
+.barra-navegacion {
+    padding: 18px 0;
+    width: 100%;
+}
+
+.mi-menu {
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #202122;
+}
+
+.mi-menu .barra-navegacion ul li a {
+    color: #ffff;
+    text-decoration: none;
+    padding: 12px 0;
+}
+
+.mi-menu .barra-navegacion ul li button img {
+    width: 32px;
+
+}
+
+.mi-menu .barra-navegacion ul li button {
+    padding: 12px 32px;
+    border-radius: 5px;
+}
+
+.mi-menu .barra-navegacion ul li button:hover {
+    background-color: #fc1d35;
+
+}
+
+.mi-menu .barra-navegacion ul li a:hover {
+    color: #fc1d35;
+    border-bottom: 2px solid #fc1d35;
+}
+
+.mi-menu .barra-navegacion ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contenedor-carrito {
+    border: 1px solid black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor.carrito table,
+th,
+tr {
+    width: 100%;
+    border: 1px solid black;
+    padding: 18px;
+}
+
+.contenedor-carrito table {
+    width: 100%;
+}
+.contenedor-carrito table  tr th {
+    width: 150px;
+}
+
+.footer-contacto {
+    border: 1px solid black;
+    height: 350px;
+    width: 100%;
+    background-color: #202122;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .footer-contacto .footer-redes-sociales {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.footer-contacto .footer-redes-sociales li a img {
+    cursor: pointer;
+    margin: 12px;
+    width: 48px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.footer-contacto .tel-mail-direccion li {
+
+    cursor: pointer;
+    list-style-type: none;
+    padding: 14px 8px;
+    color: #ffff;
+}
+
+.footer-contacto .tel-mail-direccion li:hover {
+    color: #fc1d35;
+}
+
+.footer-contacto iframe {
+    cursor: pointer;
+    padding: 12px;
 }
