@@ -58,7 +58,7 @@
     margin-right: auto;
 }
 
-.contenedor.carrito table,
+.contenedor-carrito table,
 th,
 tr {
     width: 100%;
@@ -72,8 +72,40 @@ tr {
 .contenedor-carrito table  tr th {
     width: 150px;
 }
+.contenedor {
+    margin: 20px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    width: 100%;
+}
+.contenedor .productos-pc {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: repeat(2, 1fr);
+    gap:10px;
+}
+.contenedor .productos-pc article img {
+    width: 200px;
+    padding: 16px 10px;
+}
+.contenedor .productos-pc article {
+    text-align: center;
+    margin:10px;
+
+}
+.contenedor .productos-pc article button {
+    padding: 12px 10px;
+    margin-top: 12px;
+}
+.contenedor .productos-pc article:hover {
+    color: #fc1d35;
+
+
+}
 
 .footer-contacto {
+    margin-top: 20px;
     border: 1px solid black;
     height: 350px;
     width: 100%;
