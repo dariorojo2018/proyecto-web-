@@ -1,0 +1,8 @@
+.footer-contacto {
+    width: 100%;
+    back
+}
+.footer-contacto .footer-redes-sociales {
+    display: flex;
+    flex-direction: row;
+}
